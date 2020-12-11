@@ -1,46 +1,70 @@
-# Make my Date
+# Getting Started with Create React App
 
-We've all been there. Wanting to go out for a date but can't decide where to go or what to eat. Make my Date takes the guesswork and hassle out of the equation with our one click simple solution.
-![Landing Page](/assets/images/landingPage.png)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## One Click Solution
+## Available Scripts
 
-Simply choose the city you're in and click the "Make My Date" button and off you go! Its that easy! We'll pick a restaurant for dinner and a event in the same area as dinner if you're interested. 
+In the project directory, you can run:
 
-![Restaurant Suggestion](/assets/images/restaurantOption.png)
+### `npm start`
 
-![Event Suggestion](/assets/images/eventOption.png)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
+### `npm test`
 
-For finding your restaurant we even provide a google maps link that will take you directly to dinner. 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-![Restaurant Directions](/assets/images/restaurantDirections.png)
+### `npm run build`
 
-Then for your event we also provide you the direct link to purchase your tickets taking out any further research you might have to do. 
-![Event Tickets](/assets/images/eventTickets.png)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Bring a Jacket!
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-We also handle the weather so that you can be fully prepared for whatever weather threatens to interrupt your date night. 
-![weather advisory](/assets/images/weatherForDate.png)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Need Another Suggestion in your Area? 
+### `npm run eject`
 
-If you want to see other suggestions for the same city you can go ahead and just hit the "Make My Date" button again and get a whole new set of suggestions. 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## Link to Deployed site:
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-https://mfallesen.github.io/plannerly/
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+### Analyzing the Bundle Size
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+### Making a Progressive Web App
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+### Advanced Configuration
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
