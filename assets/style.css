@@ -1,0 +1,98 @@
+/* Sticky Footer Settings */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #54727d;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+nav {
+    background-color: #d39391;
+    height: 100px;
+}
+
+#copy{
+    /* width: 75vw; */
+    /* margin:0 auto; */
+    color: rgb(206, 206, 206);
+    font-style: italic;
+}
+
+
+/* nav .brand-logo {
+    font-size: 40px;
+} */
+
+.btn {
+    background-color: #04092f;
+}
+
+.input-field {
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.date-adjust {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.datepicker {
+    /* margin-top: 14px!important; */
+}
+
+#dateBtn {
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+/*event selectors*/
+h4 {
+    font-size: 32px;
+}
+#foodChoice a{
+    color:lightblue;
+    font-size: 24px;
+}
+
+#eventChoice a{
+    color:lightblue;
+    font-size: 24px;
+}
+
+#eventGroup p{
+    font-size: 1.5em;
+}
+#eventGroup p label span {
+    font-size: 1.5em;
+    color: black;
+}
+
+.page-footer {
+    
+    background-color: #d39391;
+    z-index: 2;
+}
+
+.page-footer {
+    height:25px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #d39391;
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+
