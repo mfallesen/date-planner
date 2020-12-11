@@ -1,10 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react'
+import { Button } from 'semantic-ui-react'
+
+const ButtonExampleButton = () => <Button primary>Click Here</Button>
+
+// export default ButtonExampleButton
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <ButtonExampleButton></ButtonExampleButton>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
