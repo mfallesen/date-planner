@@ -2,8 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react'
 import { Button } from 'semantic-ui-react'
+import Footer from './components/Footer'
 
 const ButtonExampleButton = () => <Button primary>Click Here</Button>
+const ButtonExampleTwo = () => <Button secondary>Or CLick Here!</Button>
 
 // export default ButtonExampleButton
 
@@ -12,6 +14,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <ButtonExampleButton></ButtonExampleButton>
+        <ButtonExampleTwo></ButtonExampleTwo>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -25,6 +28,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Footer></Footer>
     </div>
   );
 }
