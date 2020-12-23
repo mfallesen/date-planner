@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardContent, Icon, Image } from 'semantic-ui-react'
+import { Card, Image } from 'semantic-ui-react'
 import GoogleMaps from '../GoogleMap/GoogleMap'
 
 

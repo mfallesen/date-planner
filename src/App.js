@@ -4,6 +4,7 @@ import { Button } from 'semantic-ui-react'
 import Footer from './components/Footer'
 import SearchBar from './components/SearchBar';
 import Restaurant from './components/Restaurant';
+import Movie from './components/Movie'
 import API from './utils/API'
 
 const ButtonExampleButton = () => <Button primary>Click Here</Button>
@@ -23,6 +24,11 @@ function App() {
 
       <SearchBar ></SearchBar>
       <Restaurant></Restaurant>
+
+    {/* Render based on input */}
+      <Movie/>
+
+
       <Footer></Footer>
     </div>
   );
