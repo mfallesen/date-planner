@@ -4,6 +4,7 @@ import { Button } from 'semantic-ui-react'
 import Footer from './components/Footer'
 import SearchBar from './components/SearchBar';
 import Restaurant from './components/Restaurant';
+import API from './utils/API'
 
 const ButtonExampleButton = () => <Button primary>Click Here</Button>
 const ButtonExampleTwo = () => <Button secondary>Or CLick Here!</Button>
@@ -13,12 +14,13 @@ const ButtonExampleTwo = () => <Button secondary>Or CLick Here!</Button>
 
 
 function App() {
+
   return (
     <div className="App">
-      
-        <ButtonExampleButton></ButtonExampleButton>
-        <ButtonExampleTwo></ButtonExampleTwo>
-      
+
+      <ButtonExampleButton></ButtonExampleButton>
+      <ButtonExampleTwo></ButtonExampleTwo>
+
       <SearchBar ></SearchBar>
       <Restaurant></Restaurant>
       <Footer></Footer>
