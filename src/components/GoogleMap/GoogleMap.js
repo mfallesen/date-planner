@@ -15,6 +15,9 @@ const MapContainer = (props) => {
     }
 
 
+// TODO: install dotenv package on front end for testingonce things are connected.
+
+
     return (
         <LoadScript
             googleMapsApiKey={process.env.GOOGLE_MAPS_API}>

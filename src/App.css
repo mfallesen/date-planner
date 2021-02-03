@@ -1,3 +1,9 @@
 .App {
   text-align: center;
+  background-image: url('https://res.cloudinary.com/dyn9tmf2i/image/upload/v1612311608/date-app-background_ch5vnh.jpg');
+  background-size: cover;
+  min-height: 600px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin-bottom: 10%;
 }
