@@ -1,29 +1,28 @@
 import React from 'react'
 import { Card, Image } from 'semantic-ui-react'
-import GoogleMaps from '../GoogleMap/GoogleMap'
 
 
-export default function Restaurant() {
+
+export default function Restaurant(props) {
+
+
     return (
         <Card centered>
-            <Image src='https://place-puppy.com/300x300'></Image>
             <Card.Content>
-                <h1 id="restaurant_name">Hello World</h1>
-
+                <h1 id="restaurant_name" >{props.restaurant.name}</h1>
+            <Image src={props.restaurant.thumb}></Image>
             </Card.Content>
             <Card.Description>
 
-                <p id='hours'>Restaurant Hours</p>
-                <p id='menu'>Restaurant Menu</p>
+                <p id='hours' >{props.restaurant.timings}</p>
+                <p id='menu'><a href={props.restaurant.menu_url} rel='noreferrer noopener' target="_blank">Restaurant Menu</a></p>
+                <p>Phone: <a href="tel:"{...props.restaurant.phone_numbers}>{props.restaurant.phone_numbers}</a></p>
             </Card.Description>
             <Card.Content >
 
-            <p id='address'>Restaurant Address</p>
-            {/* <Image fluid src='https://place-puppy.com/300x150'></Image> */}
-        <GoogleMaps></GoogleMaps>
+            <p id='address'>{props.restaurant.location === undefined ? "No Address Found!" : props.restaurant.location.address}</p>
             
             </Card.Content>
-
 
 
 
