@@ -1,10 +1,13 @@
 import axios from 'axios';
-const LOCAL = 'https://localhost:3002'
+const LOCAL = 'http://localhost:3002'
 
 export default {
     // basic call
-    findDateLocation: function(dateLocation){
-        return axios.get(LOCAL + '/api/call')
+    findDateLocation: async function(dateLocation){
+        console.log(dateLocation);
+        return await axios.post(LOCAL + '/api/call', {
+            city: dateLocation
+        })
         
     }
 
