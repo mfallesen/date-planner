@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button, Checkbox, Container, Form, } from 'semantic-ui-react'
+import { Button, Checkbox, Container, Form, Header, } from 'semantic-ui-react'
 import './SearchBar.css'
 
 
@@ -14,7 +14,8 @@ export default function SearchBar(props) {
     return (
         <Container  className='shrink-down bg-blur'>
             <Container className='shrink-down'>
-
+                <Header inverted size='huge' as='h1'></Header>
+                <Header inverted size='large' as='h2'>Can't stop arguing about what to have for dinner? We'll figure it out for you.</Header>
                 <Form inverted size='large' onSubmit={props.handleDateSearch}>
                     <Form.Field>
                         <label id='search-header'> Where can we take you tonight?</label>

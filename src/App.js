@@ -3,10 +3,9 @@ import React, { useState } from 'react'
 import Footer from './components/Footer'
 import SearchBar from './components/SearchBar';
 import Restaurant from './components/Restaurant';
-import Movie from './components/Movie'
 import API from './utils/API'
 import Weather from './components/Weather';
-import { Dimmer, Loader } from 'semantic-ui-react';
+import {Container, Loader } from 'semantic-ui-react';
 
 
 
@@ -32,7 +31,6 @@ function App() {
     API.findDateLocation(city).then(response => {
       setRestaurant(response.data[0].restaurant);
       setWeather(response.data[1])
-      // restaurant(setRestaurant)
       console.log(restaurant);
       console.log(weather);
     }).catch(err => {
@@ -43,19 +41,22 @@ function App() {
     })
   }
 
-
-console.log('=======', restaurant)
   return (
     <div className="App">
+      <Container>
       
 
       <SearchBar handleDateSearch={handleDateSearch} onCityInputChange={registerInputChange} city={city}></SearchBar>
-      {dataLoad && <Loader size={'big'} active inverted content="Finding Date" />}
+      {dataLoad && <Loader size={'big'} active inverted content="Finding Date: ">
+        <h2>Finding Date:</h2>
+        <p>This might take a minute</p>
+        </Loader>}
       {!dataLoad && show  && <Restaurant restaurant={restaurant}></Restaurant>}
       {!dataLoad && Object.entries(weather) && <Weather weather={weather} city={city}/>}
       {/* <Movie/>  Future Implementation */}
 
       <Footer></Footer>
+      </Container>
       
     </div>
   );

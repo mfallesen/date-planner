@@ -1,5 +1,5 @@
 import axios from 'axios';
-const LOCAL = 'http://localhost:3002'
+const LOCAL = 'https://date-application-api.herokuapp.com'
 
 export default {
     // basic call
