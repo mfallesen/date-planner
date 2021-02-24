@@ -3,3 +3,8 @@ This is a rework of a previous app found [here](https://mfallesen.github.io/plan
 This rework is utilizing a new framework (for me in any case) Semantic-UI-React. The idea is to rework this application to the same functionality that the old application had but as a react application. Further iteration on this application would involve UI refinement as well as expanding the services the application can provide. 
 
 # Technologies
+React
+Semantic UI
+Node.js
+Zomato API 
+OpenWeather API
