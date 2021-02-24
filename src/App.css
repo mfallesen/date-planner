@@ -1,38 +1,41 @@
 .App {
   text-align: center;
+  background-image: url('https://res.cloudinary.com/dyn9tmf2i/image/upload/q_25/v1612311608/date-app-background_ch5vnh.jpg');
+  background-size: cover;
+  background-position: center 0;
+  min-height: 600px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin-bottom: 10%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form {
+  padding-top: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.loader {
+  position: fixed !important;
+  background-color: rgba(70, 92, 139, 0.95);
+  font-size: 2em !important;
+  padding: 100px !important;
+  padding-bottom: 50px !important;
+  border-radius: 5px;
 }
+.loader::before {
+  /* position: relative !important; */
+  padding-top: 40px !important;
+  top: 20px !important;
+  border-color: #F7F5E6 !important;
 
-.App-link {
-  color: #61dafb;
 }
+.loader::after {
+  /* position: relative !important; */
+  padding-top: 40px !important;
+  top: 20px !important;
+  border-top-color: #93C178 !important;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.loader p {
+  font-size: 20px;
 }
