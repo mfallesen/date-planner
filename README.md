@@ -8,3 +8,6 @@ Semantic UI
 Node.js
 Zomato API 
 OpenWeather API
+
+#License
+![MIT License](https://img.shields.io/github/license/mfallesen/date-planner)
