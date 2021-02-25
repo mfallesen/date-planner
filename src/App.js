@@ -31,8 +31,6 @@ function App() {
     API.findDateLocation(city).then(response => {
       setRestaurant(response.data[0].restaurant);
       setWeather(response.data[1])
-      console.log(restaurant);
-      console.log(weather);
     }).catch(err => {
       console.error(err);
     }).finally(() => {
