@@ -6,17 +6,17 @@
 
 ## Content
 1. [Usage](#usage)
-2. [Future Development](#future development)
+2. [Future Development](#future)
 3. [Technologies](#technologies)
 4. [License](#license)
-5. [Contribution and Issues](#contributing and issues)
+5. [Contribution and Issues](#contributing)
 6. [Links](#links)
 
 ## Usage
 
   The user is promoted to enter a city into the search bar. The api fetches a random restaurant in the city that was entered and the local weather. There are links provided so the user can call the restaurant as well as a link to the restaurant menu if one is provided. 
   
-## Future Development
+## Future 
 
   There is plenty of room for improvement to this implementation. Allowing the user to search via their Geolocation for example will give much more relevant results to the user as well as limiting the search radius to something a bit more reasonable. There is also work on implementing an "event" to go either before or after dinner. whether its a movie, show, or other activity thats local. Creating a neater layout for weather along with a custom message for each weather type (such as "bring an umbrella" if there is rain forecast) is an obvious one.
 
@@ -43,7 +43,7 @@
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## Contributing and Issues
+## Contributing
 
   I'm always open to feedback and would love to hear from you if you've got suggestions for improvements you'd like to see or if you encounter any issues while running this. If you find one Please be sure to use the issues tab in the repo to let me know.
 
@@ -58,5 +58,7 @@
 
 ## Links
 [The Application](https://date-plannerly.herokuapp.com/)
+
 [Front End Repo](https://github.com/mfallesen/date-planner)
+
 [API Repo](https://github.com/mfallesen/date-planner-api)
