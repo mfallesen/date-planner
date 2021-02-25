@@ -4,7 +4,7 @@
 
   Most couples argue about one of two things. Money and what to have for dinner. I'm not a financial expert and i can't help them with the first one I can give them some help in overcoming their hanger at one another. The Date Planner app is a simple to use Web App that just ask users one simple uquestion. What city do you want to have dinner in? The rest is done by the app. It will find a random local restaurant (relative to the city entered) and provide you with the restaurant info as well as the local weather. This isn't just great for couple but also for locals who want to try something new in their city as well as travelers who aren't familiar with the area. 
 
-![Landing Page](readme-images/Screen Shot 2021-02-25 at 12.37.44 PM.png)
+![Landing Page](readme-images/Landing.png)
 
 ## Content
 1. [Usage](#usage)
